@@ -1,0 +1,17 @@
+﻿<Window x:Class="AdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdivinaNumero"
+        mc:Ignorable="d"
+        Title="Adivina el número" Height="158.961" Width="483.247" Icon="question.ico">
+    <Grid>
+        <TextBox x:Name="NumeroTextBox" HorizontalAlignment="Left" Height="23" Margin="188,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="ComprobarButton" Content="Comprobar" HorizontalAlignment="Left" Height="28" Margin="30,68,0,0" VerticalAlignment="Top" Width="122" Click="ComprobarButton_Click"/>
+        <Button x:Name="ReiniciarButton" Content="Reiniciar" HorizontalAlignment="Left" Height="28" Margin="170,68,0,0" VerticalAlignment="Top" Width="122" Click="ReiniciarButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="¿Qué número he pensado?" VerticalAlignment="Top" Margin="30,24,0,0"/>
+        <TextBlock x:Name="ResultadoTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="341,24,0,0"/>
+
+    </Grid>
+</Window>
